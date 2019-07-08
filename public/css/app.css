@@ -11109,6 +11109,7 @@ a.text-dark:focus {
 header {
   height: 80px;
   padding: 0 10px;
+  color: #1b3c59;
 }
 
 header img.logo {
@@ -11168,5 +11169,31 @@ header nav a.btn:last-child {
 .white {
   color: white;
   padding-bottom: 20px;
+}
+
+footer img {
+  max-width: 250px;
+}
+
+footer a {
+  color: #1b3c59;
+}
+
+footer #footer_recapiti a {
+  display: block;
+}
+
+footer #footer_menu a {
+  display: block;
+}
+
+footer #footer_social a {
+  padding-left: 10px;
+}
+
+footer #footer_social,
+footer #footer_menu,
+footer #footer_recapiti {
+  padding-left: 80px;
 }
 

@@ -2,10 +2,12 @@
 header {
   height: $header_height;
   padding: 0 10px;
+  color: $darkblue;
   img.logo {
     max-height: $header_height;
     padding: 10px 0;
   }
+
 
   nav {
     float: right;
@@ -20,6 +22,7 @@ header {
       &:not(:last-child):hover{
         border-bottom: 3px solid $limegreen;
       }
+
       &:last-child:hover{
         background-color: $light_orange;
       }

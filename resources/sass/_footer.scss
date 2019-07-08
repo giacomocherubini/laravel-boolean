@@ -1,0 +1,31 @@
+footer {
+  img {
+    max-width: 250px;
+  }
+  a {
+    color: $darkblue;
+  }
+  #footer_recapiti {
+    a {
+      display: block;
+    }
+  }
+
+  #footer_menu {
+    a {
+      display: block;
+    }
+  }
+
+  #footer_social {
+    a {
+    padding-left: 10px;
+    }
+  }
+
+  #footer_social,
+  #footer_menu,
+  #footer_recapiti {
+    padding-left: 80px;
+  }
+}
