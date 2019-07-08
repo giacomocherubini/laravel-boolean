@@ -11161,11 +11161,12 @@ header nav a.btn:last-child {
 
 .partners {
   height: 200px;
-  line-height: 200px;
+  padding: 30px 0;
   background-color: #1b3c59;
 }
 
 .white {
   color: white;
+  padding-bottom: 20px;
 }
 
