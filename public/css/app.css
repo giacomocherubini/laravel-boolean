@@ -11100,12 +11100,18 @@ a.text-dark:focus {
   }
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 header {
   height: 80px;
   padding: 0 10px;
 }
 
-header img {
+header img.logo {
   max-height: 80px;
   padding: 10px 0;
 }
@@ -11136,8 +11142,11 @@ header nav a.btn:last-child {
 }
 
 .diventa_sviluppatore {
+  height: 400px;
+  width: 100%;
   padding-left: 25%;
   padding-right: 25%;
+  vertical-align: baseline;
 }
 
 .diventa_sviluppatore .sinistro,
@@ -11145,7 +11154,18 @@ header nav a.btn:last-child {
   display: inline-block;
 }
 
-.diventa_sviluppatore .destro {
+.diventa_sviluppatore .notebook_img {
   float: right;
+  max-width: 300px;
+}
+
+.partners {
+  height: 200px;
+  line-height: 200px;
+  background-color: #1b3c59;
+}
+
+.white {
+  color: white;
 }
 

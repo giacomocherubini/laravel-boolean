@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean logo">
+      <img class="logo"src="https://www.boolean.careers/images/common/logo.png" alt="Boolean logo">
       <nav>
         <a class="btn" href="#">Home</a>
         <a class="btn" href="#">Corso</a>
