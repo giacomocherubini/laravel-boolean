@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/', 'StaticController@index');
+Route::get('/', 'StaticController@index')->name('home');
+Route::get('static-pages/privacy-policy', 'StaticController@privacyPolicy')->name('privacy');

@@ -10,7 +10,7 @@
     <header>
       <img class="logo"src="https://www.boolean.careers/images/common/logo.png" alt="Boolean logo">
       <nav>
-        <a class="btn" href="#">Home</a>
+        <a class="btn" href="{{ route('home') }}">Home</a>
         <a class="btn" href="#">Corso</a>
         <a class="btn" href="#">Metodo</a>
         <a class="btn" href="#">Dopo il corso</a>
@@ -36,7 +36,7 @@
           <div class="col-lg-auto col-12" id="footer_menu">
             <a href="#">Domande Frequenti</a>
             <a href="#">Lezione Gratuita</a>
-            <a href="#">Privacy Policy</a>
+            <a href="{{ route('privacy') }}">Privacy Policy</a>
             <a href="#">Lavora con noi!</a>
           </div>
           <div class="col-lg-auto col-12" id="footer_social">

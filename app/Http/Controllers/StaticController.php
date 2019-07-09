@@ -9,4 +9,10 @@ class StaticController extends Controller
   public function index() {
     return view('home');
   }
+
+  public function privacyPolicy() {
+
+    return view('static-pages/privacy-policy');
+  }
+
 }
